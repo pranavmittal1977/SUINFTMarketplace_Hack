@@ -1,0 +1,62 @@
+.top-traders-list {
+    max-width: 80%; /* Limiting the table width */
+    margin: 0 auto; /* Centering the table */
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+    padding: 20px; /* Padding around the table */
+    overflow: hidden; /* Ensures the border-radius applies to child elements */
+  }
+  
+  .top-traders-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Space between the title and the table */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd; /* Light borders for the table */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #4a6fa5; /* Header background */
+    color: white; /* Header text color */
+  }
+
+  tr:nth-child(odd) {
+    background-color: black; /* Zebra striping for rows */
+  }
+  
+  tr:nth-child(even) {
+    background-color: black; /* Zebra striping for rows */
+  }
+  
+  .percentage-change {
+    color: #4CAF50; /* Green for positive changes */
+  }
+  
+  .percentage-change-1 {
+    color: #F44336; /* Red for negative changes */
+  }
+  
+  /* Improved responsiveness for smaller screens */
+  @media screen and (max-width: 768px) {
+    .top-traders-list {
+      max-width: 95%; /* Allow more width on smaller screens */
+      margin: 20px; /* Adjust margin */
+    }
+  
+    th, td {
+      padding: 10px; /* Smaller padding for smaller screens */
+    }
+  }
