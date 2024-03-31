@@ -1,12 +1,8 @@
-
-
-// export default App;
-
 import React, { useState } from 'react';
 import { ConnectButton, useCurrentAccount } from "@mysten/dapp-kit";
 import TopTraders from './TopTraders';
 import './styles.css';
-import homeImage from './assets/x1.png';
+import homeImage from './assets/x2.png';
 import { requestSuiFromFaucetV0, getFaucetHost } from '@mysten/sui.js/faucet';
 
 import { useTransactionExecution } from './useTransactionExecution';
@@ -91,4 +87,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
