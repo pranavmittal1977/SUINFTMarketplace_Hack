@@ -62,6 +62,10 @@ body {
   }
   
   .buy-button, .sell-button, .trade-button, .wallet-button {
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;  
     margin: 10px;
     padding: 10px 20px;
     border: none;
@@ -130,7 +134,7 @@ body {
     height: auto;
   }
   
-  .footer {
+  .footer-center {
     background-color: #333;
     color: white;
     text-align: center;
