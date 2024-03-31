@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  header {
+    background-color: #4a6fa5;
+    color: white;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #eff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  }
+  
+  .hero {
+    padding: 50px 40px;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .gallery, .trending, .wallet-connection, .top-traders {
+    padding: 20px 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  
+  .gallery:hover, .trending:hover, .wallet-connection:hover, .top-traders:hover {
+    transform: translateY(-5px);
+  }
+  
+  .buy-button, .sell-button, .trade-button, .wallet-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #4CAF50; /* Green */
+    box-shadow: 0 0 10px #4CAF50;
+  }
+  
+  .sell-button:hover {
+    background-color: #F44336; /* Red */
+    box-shadow: 0 0 10px #F44336;
+  }
+  
+  .trade-button:hover {
+    background-color: #2196F3; /* Blue */
+    box-shadow: 0 0 10px #2196F3;
+  }
+
+  .wallet-button:hover {
+    background-color: #cdf321; /* yellow */
+    box-shadow: 0 0 10px #91f321;
+  }
+  
+  .top-traders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .top-traders th, .top-traders td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .top-traders th {
+    background-color: #4a6fa5;
+    color: white;
+  }
+  
+  .percentage-change {
+    color: #10b981;
+  }
+  
+  .percentage-change-1 {
+    color: #ff0000;
+  }
+
+  /* Center the images within their section */
+    .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Adjust the width of the image as needed */
+  .home-image img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive typography */
+  h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  /* Utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .mt-1 { margin-top: 10px; }
+  .mt-2 { margin-top: 20px; }
+  .mt-3 { margin-top: 30px; }
+  .mb-1 { margin-bottom: 10px; }
+  .mb-2 { margin-bottom: 20px; }
+  .mb-3 { margin-bottom: 30px; }
